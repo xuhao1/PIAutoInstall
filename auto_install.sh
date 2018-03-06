@@ -2,9 +2,9 @@
 echo "Starting setup PI"
 sudo apt-get update
 echo "Install wget xvfb"
-sudo apt-get install wget xvfb
+sudo apt-get install -y wget xvfb
 echo "Install python-lxml"
-sudo apt-get install python-lxml
+sudo apt-get install -y python-lxml
 echo "Install mavproxy"
 sudo -H pip install mavproxy
 #Install nwjs
