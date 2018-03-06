@@ -1,2 +1,0 @@
-Booting sys 2018-03-06_15-08-30
-All boot cmd is sent
