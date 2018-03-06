@@ -1,3 +1,3 @@
 [submodule "DroneGrabber"]
 	path = DroneGrabber
-	url = ./DroneGrabber/
+	url = https://github.com/xuhao1/DroneGrabber
