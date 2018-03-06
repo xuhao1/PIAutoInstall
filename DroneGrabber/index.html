@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  <!--skip-->
+    <title>EasyRTC Demo: Video Only</title>
+    <!-- Assumes global locations for socket.io.js and easyrtc.js -->
+    <script type="text/javascript" src="/statics/socket.io.js"></script>
+    <script type="text/javascript" src="/statics/easyrtc.js"></script>
+    <script type="text/javascript" src="/statics/easyrtc_rates.js"></script>
+    <script type="text/javascript" src="/drone_side.js"></script>
+    <!--hide-->
+    <!-- Styles used within the demo -->
+    <style type="text/css">
+        #selfVideo {
+            height: 600px;
+            width: 800px;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+
+        #acceptCallBox {
+            display: none;
+            z-index: 2;
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            border: red solid 2px;
+            background-color: pink;
+            padding: 15px;
+        }
+
+    </style>
+    <!--show-->
+</head>
+<body>
+<!--hide-->
+<div id="videos">
+    <video autoplay="autoplay" id="selfVideo" class="easyrtcMirror"></video>
+    <p id="self_code"></p>
+</div>
+<script src="mavlink_proxy.js"></script>
+<script src="terminal.js"></script>
+<script>
+    var gui = require('nw.gui')
+    window.onload = function (ev) {
+        console.log("Try to connect");
+
+        console.log(gui.App.argv);
+        var fcTTY = "/dev/ttyS0";
+        var datalinkTTY = "/dev/ttyUSB0";
+        console.log("guiapp"+gui.App);
+        if (gui.App.argv.length > 1) {
+            fcTTY = gui.App.argv[0];
+            datalinkTTY = gui.App.argv[1]
+        }
+        var mavpro = new MavlinkProxy(fcTTY, datalinkTTY);
+        window.mavpro = mavpro;
+
+        connect_gcs();
+
+        // start_terminal(80,80);
+    }
+</script>
+<!--show-->
+</body>
+</html>

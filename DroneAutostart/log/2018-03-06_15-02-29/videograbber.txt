@@ -1,0 +1,9 @@
+Try to start Drone Grabber with xvfb-run
+[0306/150240.490671:WARNING:chrome_main_delegate.cc(569)] final extension: 
+[878:878:0306/150243.027947:ERROR:desktop_window_tree_host_x11.cc(1152)] Not implemented reached in virtual void views::DesktopWindowTreeHostX11::InitModalType(ui::ModalType)
+[969:969:0306/150243.634197:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 
+[878:953:0306/150243.661735:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+[878:953:0306/150243.662105:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+[878:953:0306/150243.662272:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+[878:953:0306/150243.662422:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
+[878:953:0306/150243.662569:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.

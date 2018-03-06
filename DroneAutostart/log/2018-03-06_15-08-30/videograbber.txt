@@ -1,0 +1,36 @@
+Try to start Drone Grabber with xvfb-run
+[0306/150841.509581:WARNING:chrome_main_delegate.cc(569)] final extension: 
+[846:846:0306/150843.133308:WARNING:audio_manager.cc(293)] Multiple instances of AudioManager detected
+[846:846:0306/150843.133458:WARNING:audio_manager.cc(254)] Multiple instances of AudioManager detected
+[846:846:0306/150843.826933:WARNING:password_store_factory.cc(249)] Using basic (unencrypted) store for password storage. See https://chromium.googlesource.com/chromium/src/+/master/docs/linux_password_storage.md for more information about password storage options.
+[846:846:0306/150843.953173:WARNING:push_messaging_service_factory.cc(30)] PushMessagingService could not be built because InstanceID is unexpectedly disabled
+[988:988:0306/150844.249602:WARNING:chrome_main_delegate.cc(286)] process type 'renderer' should be created through the zygote.
+[983:983:0306/150844.552765:ERROR:sandbox_linux.cc(345)] InitializeSandbox() called with multiple threads in process gpu-process. 
+[846:846:0306/150847.261955:INFO:CONSOLE(47)] "Try to connect", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/index.html (47)
+[846:846:0306/150847.276844:INFO:CONSOLE(49)] "", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/index.html (49)
+[846:846:0306/150847.277708:INFO:CONSOLE(52)] "guiapp[object Object]", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/index.html (52)
+[846:846:0306/150847.280505:INFO:CONSOLE(10)] "Try to open fc tty /dev/ttyS0", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (10)
+[846:846:0306/150847.281598:INFO:CONSOLE(11)] "Try to open datalink tty /dev/ttyUSB0", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (11)
+[846:846:0306/150847.289060:INFO:CONSOLE(17)] "Try to open/dev/ttyS0", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (17)
+[846:846:0306/150847.294378:INFO:CONSOLE(39)] "Try to open /dev/ttyUSB0", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (39)
+[846:846:0306/150847.298430:INFO:CONSOLE(5)] "Will connect to VTOL.XUHAO1.ME", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (5)
+[846:846:0306/150847.300803:INFO:CONSOLE(10)] "Initializing.", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (10)
+[846:846:0306/150847.316875:INFO:CONSOLE(38)] "Finish connect to GCS", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (38)
+[846:846:0306/150847.329293:INFO:CONSOLE(26)] "open fc_port success", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (26)
+[846:846:0306/150847.335527:INFO:CONSOLE(42)] "Error opening drone_port: ", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/mavlink_proxy.js (42)
+[846:846:0306/150848.259627:INFO:CONSOLE(31)] "Media inited!Will start stream", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (31)
+[846:846:0306/150848.263654:INFO:CONSOLE(8264)] "http://vtol.xuhao1.me:8081", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/statics/easyrtc.js (8264)
+[846:846:0306/150848.884932:INFO:CONSOLE(55)] "Login to Server successful : CaEbq9lxvfDcEL8b", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (55)
+[846:846:0306/150926.191881:INFO:CONSOLE(85)] "Got gcs id", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (85)
+[846:846:0306/150926.198678:INFO:CONSOLE(86)] "BKLoriukJUHMkM57", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (86)
+[846:846:0306/150926.227712:INFO:CONSOLE(19)] "Created terminal with PID: 1016", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/terminal.js (19)
+[846:846:0306/150926.243870:INFO:CONSOLE(75)] "Send xtermHello,World
+", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (75)
+[988:1019:0306/150926.337809:ERROR:adm_helpers.cc(62)] Failed to query stereo recording.
+[988:1019:0306/150926.374825:WARNING:delay_based_bwe.cc(350)] BWE Setting start bitrate to: 300000
+[988:1019:0306/150926.378079:WARNING:webrtcmediaengine.cc(163)] Unsupported RTP extension: {uri: http://www.webrtc.org/experiments/rtp-hdrext/video-content-type, id: 7}
+[988:1019:0306/150926.378230:WARNING:webrtcmediaengine.cc(163)] Unsupported RTP extension: {uri: http://www.webrtc.org/experiments/rtp-hdrext/video-timing, id: 8}
+[846:846:0306/150926.500049:INFO:CONSOLE(75)] "Send xtermroot@raspberrypi:/# ", source: chrome-extension://gmbhoibldanpccceabbjcllnjncpbkmc/drone_side.js (75)
+[988:1019:0306/150926.660689:WARNING:basicportallocator.cc(739)] Discarding candidate because port is already done gathering.
+[988:1019:0306/150926.726221:WARNING:turnport.cc(1206)] Jingle:Port[0x62b47e88:video:1:0:relay:Net[enxb827eb8ae1e9:192.168.0.x/24:Ethernet]]: Failed to authenticate with the server after challenge.
+[988:1019:0306/151006.347148:ERROR:stunport.cc(88)] Binding request timed out from 192.168.0.x:53770 (enxb827eb8ae1e9)
