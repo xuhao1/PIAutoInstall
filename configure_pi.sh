@@ -1,13 +1,10 @@
 #!/bin/bash
 #Install git
+echo "clone dronegrabber"
 git submodule init
 git submodule update
 
-#sudo apt-get update
-#sudo apt-get install wget xvfb
-#sudo apt-get install python-lxml
-#sudo -H pip install mavproxy
-#Install nwjs
-#curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-#sudo apt-get install -y nodejs
+echo "Extracting NWJS"
+tar -xf nwjs-sdk-v0.27.6-linux-arm-chrome-branding.tar.gz
+echo "Copy setting file...."
 sudo cp ./etc/rc.local /etc/rc.local
